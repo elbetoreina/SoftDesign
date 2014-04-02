@@ -15,7 +15,7 @@
             <ImageAspectRatio>true</ImageAspectRatio>
             <ImageEffect>basic_linear</ImageEffect>
             <ImageFillColor>#FFFFFF</ImageFillColor>
-            <ImageHeight>450</ImageHeight>
+            <ImageHeight>300</ImageHeight>
             <ImageQuality>90</ImageQuality>
             <ImageShrink2>false</ImageShrink2>
             <ImageStretch>true</ImageStretch>
