@@ -3,359 +3,119 @@
     margin: 0px;
     background-color: #fff;
 }
-
 @font-face {
-    font-family: 'arsenalbold';
-    src: url('arsenal-bold-webfont.eot');
-    src: url('arsenal-bold-webfont.eot?#iefix') format('embedded-opentype'), url('arsenal-bold-webfont.woff') format('woff'), url('arsenal-bold-webfont.ttf') format('truetype'), url('arsenal-bold-webfont.svg#arsenalbold') format('svg');
+    font-family: 'ostrich_sansblack';
+    src: url('../Fonts/ostrich-black-webfont.eot');
+    src: url('../Fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ostrich-black-webfont.woff') format('woff'),
+         url('../Fonts/ostrich-black-webfont.ttf') format('truetype'),
+         url('../Fonts/ostrich-black-webfont.svg#ostrich_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('../Fonts/ostrich-regular-webfont.eot');
+    src: url('../Fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('../Fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('../Fonts/ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
-
-
-
-@font-face {
-    font-family: 'arsenalbold_italic';
-    src: url('arsenal-bolditalic-webfont.eot');
-    src: url('arsenal-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('arsenal-bolditalic-webfont.woff') format('woff'), url('arsenal-bolditalic-webfont.ttf') format('truetype'), url('arsenal-bolditalic-webfont.svg#arsenalbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
-@font-face {
-    font-family: 'arsenalitalic';
-    src: url('arsenal-italic-webfont.eot');
-    src: url('arsenal-italic-webfont.eot?#iefix') format('embedded-opentype'), url('arsenal-italic-webfont.woff') format('woff'), url('arsenal-italic-webfont.ttf') format('truetype'), url('arsenal-italic-webfont.svg#arsenalitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
-@font-face {
-    font-family: 'arsenalregular';
-    src: url('arsenal-regular-webfont.eot');
-    src: url('arsenal-regular-webfont.eot?#iefix') format('embedded-opentype'), url('arsenal-regular-webfont.woff') format('woff'), url('arsenal-regular-webfont.ttf') format('truetype'), url('arsenal-regular-webfont.svg#arsenalregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'antoniolight';
-    src: url('antonio-light-webfont.eot?#iefix') format('embedded-opentype'), url('antonio-light-webfont.woff') format('woff'), url('antonio-light-webfont.ttf') format('truetype'), url('antonio-light-webfont.svg#antoniolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'antoniobold';
-    src: url('antonio-bold-webfont.eot');
-    src: url('antonio-bold-webfont.eot?#iefix') format('embedded-opentype'), url('antonio-bold-webfont.woff') format('woff'), url('antonio-bold-webfont.ttf') format('truetype'), url('antonio-bold-webfont.svg#antoniobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'antonioregular';
-    src: url('antonio-regular-webfont.eot');
-    src: url('antonio-regular-webfont.eot?#iefix') format('embedded-opentype'), url('antonio-regular-webfont.woff') format('woff'), url('antonio-regular-webfont.ttf') format('truetype'), url('antonio-regular-webfont.svg#antonioregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'alegreya_sansregular';
-    src: url('alegreyasans-regular-webfont.eot');
-    src: url('alegreyasans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('alegreyasans-regular-webfont.woff') format('woff'), url('alegreyasans-regular-webfont.ttf') format('truetype'), url('alegreyasans-regular-webfont.svg#alegreya_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-h1 {
-    color: #4D809C;
-    font-size: 32px;
-    font-family: 'alegreya_sansregular';
-}
-
-
 
 .header {
     position: relative;
-    top: 20px;
+    top: 0px;
+    width: 100%;
+    height: 150px;    
+    background-color: #eee;
+}
+.header-inside {
+    position: relative;
+    top: 0px;
     width: 950px;
-    height: 165px;
-    margin: 0 auto;
-    background-color: #fff;
+    height: 150px;
+    margin: 0 auto;	
 }
 
-.presentacion-texto {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100px;
-    width: 600px;
-}
-
-.logo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.fb-like-mark {
-    position: absolute;
-    top: 0px;
-    left: 600px;
-    height: 125px;
-    width: 90px;
-    background-color: #fff;
-}
-
-.fb-like {
-    position: absolute;
-    top: 2px;
-    left: 7px;
-}
-
-.twitter-follow {
-    position: absolute;
-    top: 93px;
-    left: 5px;
-}
-
-.trademarks-background {
-    position: absolute;
-    background-color: #4D809C;
-    top: 0px;
-    left: 198px;
-    height: 130px;
-    width: 752px;
+.logo
+{
+	position: absolute;
+	top:12px;
 }
 
 .menu {
     position: absolute;
-    top: 133px;
-    left: 198px;
-    width: 752px;
-    height: 32px;
-    font-size: 18px;
-    font-family: 'antoniobold';
-    background-color: #FA8072;
-}
-
-.menu-inicio {
-    position: absolute;
-    left: 0px;
-    height: 32px;
-    width: 188px;
-}
-
-.span-inicio {
-    position: absolute;
-    top: 1px;
-    left: 75px;
-}
-
-.menu-acerca {
-    position: absolute;
-    left: 189px;
-    height: 32px;
-    width: 188px;
-}
-
-.span-acerca {
-    position: absolute;
-    top: 1px;
-    left: 30px;
-}
-
-.menu-servicios {
-    position: absolute;
-    left: 377px;
-    height: 32px;
-    width: 188px;
-}
-
-.span-servicios {
-    position: absolute;
-    top: 1px;
-    left: 32px;
-}
-
-.menu-contacto {
-    position: absolute;
-    left: 565px;
-    height: 32px;
-    width: 188px;
-}
-
-.span-contacto {
-    position: absolute;
-    top: 1px;
-    left: 50px;
-}
-
-.menu a {
-    text-decoration: none;
-    display: inline-block;
-    line-height: 32px;
-    height: 32px;
-    width: 187px;
-    color: #fff;
-}
-
-    .menu a:hover {
-        background-color: #25379c;
-        color: #fff;
-    }
-
-.sliderBackground {
-    width: 950px;
-    height: 400px;
-    margin: 0 auto;
-}
-
-.slider {
-    position: relative;
-    top: 23px;
-    width: 950px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
-.featured-content {
-    position: relative;
-    top: 27px;
-    width: 950px;
-    height: 1400px;
-    background-color: #fff;
-    margin: 0 auto;
-}
-
-.featured-panel-1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 700px;
-    height: 1400px;
-    background-color: #DDD;
-}
-
-.header-article-1 {
-    position: absolute;
-    top: 263px;
-    left: 20Px;
-    background-color: #4D809C;
-    width: 660px;
-    height: 40px;
-}
-
-.span-title-1 {
-    position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 113px;
+    left: 375px;
+    width: 575px;
+    height: 25px;
     font-size: 24px;
-    font-family: 'arsenalbold';
-    color: #CFC8B5;
+    font-family: 'ostrich_sansblack';
+	color: #777;
+}
+.selected_a{
+	color:#FA8072;
+	text-decoration: none;
+}
+.notselected_a{
+	color:#777;
+	text-decoration: none;
+}
+.notselected_a:hover{
+	color:#FA8072;
+	text-decoration: none;
+}
+.back-phone-email
+{
+	position:absolute;
+	left: 503px;
+	top: 0px;
+	width: 447px;
+	height: 30px;
+	background-color:#87CEEB;
 }
 
-.header-article-2 {
-    position: absolute;
-    top: 749px;
-    left: 20px;
-    background-color: #4D809C;
-    width: 660px;
-    height: 40px;
+.phone_number{
+	position:absolute;
+	left: 27px;
+	top: 3px;
+	font-family: 'ostrich_sansmedium';
+	font-size: 32px;
+	color: #333;
+}
+.phone_image{
+	position:absolute;
+	left: 5px;
+	top: 2px;
 }
 
-.span-title-2 {
-    position: absolute; 
-    top: 5px;
-    left: 10px;
-    font-size: 24px;
-    font-family: 'arsenalbold';
-    color: #CFC8B5;
+.envelope_image{
+	position:absolute;
+	left: 180px;
+	top: 5px;
 }
 
-.article-1 {
-    position: absolute;
-    text-align: justify;
-    top: 295px;
-    left: 20px;
-    color: #333;
-    width: 660px;
-    height: 300px;
-    font-size: 20px;
-    font-family: 'arsenalregular';
+.email_address{
+	position:absolute;
+	left: 210px;
+	top: 3px;	
+}
+.a_email_address{
+	text-decoration:none;
+	font-family: 'ostrich_sansmedium';
+	font-size: 32px;
+	color: #333;
+}
+.a_email_address:hover{
+	color:#FFF;
+	text-decoration: none;
+}
+.slider_back{
+	position:relative;
+	top: 30px;
 }
 
-.article-1-image {
-    position: absolute;
-    text-align: justify;
-    top: 20px;
-    left: 20px;
-    color: #333;
-    width: 660px;
-    height: 300px;
-    font-size: 20px;
-    font-family: 'arsenalregular';
-}
 
-.article-2 {
-    position: absolute;
-    text-align: justify;
-    top: 781px;
-    left: 20px;
-    color: #333;
-    width: 660px;
-    height: 300px;
-    font-size: 20px;
-    font-family: 'arsenalregular';
-}
-
-.article-2-image {
-    position: absolute;
-    text-align: justify;
-    top: 470px;
-    left: 20px;
-    color: #333;
-    width: 660px;
-    height: 300px;
-    font-size: 20px;
-    font-family: 'arsenalregular';
-}
-
-.featured-panel-2 {
-    position: absolute;
-    top: 0px;
-    left: 704px;
-    width: 246px;
-    height: 1400px;
-    background-color: #777;
-}
-
-.footer {
-    position: relative;
-    top: 31px;
-    width: 950px;
-    height: 125px;
-    background-color: #fff;
-    margin: 0 auto;
-}
-
-.footer-panel-1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 950px;
-    height: 105px;
-    background-color: #4D809C;
-}
