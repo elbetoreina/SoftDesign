@@ -83,38 +83,38 @@
 	margin: 0px auto;
 	width: 950px;
 	height: 30px;
-	background-color:#EEE;
+	background-color:#eee;
 }
 
 .phone_number{
 	position:absolute;
-	left: 530px;
+	left: 560px;
 	top: 3px;
-	font-family: 'ostrich_sansmedium';
-	font-size: 32px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
 	color: #333;
 }
 .phone_image{
 	position:absolute;
-	left: 508px;
+	left: 538px;
 	top: 2px;
 }
 
 .envelope_image{
 	position:absolute;
-	left: 683px;
+	left: 713px;
 	top: 5px;
 }
 
 .email_address{
 	position:absolute;
-	left: 713px;
+	left: 743px;
 	top: 3px;	
 }
 .a_email_address{
 	text-decoration:none;
-	font-family: 'ostrich_sansmedium';
-	font-size: 32px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
 	color: #333;
 }
 .a_email_address:hover{
