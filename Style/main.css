@@ -25,6 +25,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'justoldfashionregular';
+    src: url('../Fonts/justoldfashion-webfont.eot');
+    src: url('../Fonts/justoldfashion-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/justoldfashion-webfont.woff') format('woff'),
+         url('../Fonts/justoldfashion-webfont.ttf') format('truetype'),
+         url('../Fonts/justoldfashion-webfont.svg#justoldfashionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .pre-header{
 	position: relative;
