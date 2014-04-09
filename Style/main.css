@@ -145,6 +145,12 @@
 	margin:0px auto;
 	background-color: #066;
 }
+.article-1-wrapper
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
 
 
 
