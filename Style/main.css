@@ -49,6 +49,18 @@
 
 }
 
+@font-face {
+    font-family: 'exomedium';
+    src: url('../Fonts/exo-medium-webfont.eot');
+    src: url('../Fonts/exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/exo-medium-webfont.woff') format('woff'),
+         url('../Fonts/exo-medium-webfont.ttf') format('truetype'),
+         url('../Fonts/exo-medium-webfont.svg#exomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .pre-header{
 	position: relative;
     top: 0px;
@@ -165,10 +177,10 @@
 	width:90%;
 	margin: 0 auto;
 	text-align:center;
-	color:#399;
-	font-family:'justoldfashionregular';
-	font-size: 24px;
-	background-color:#6CF;
+	color:#006666;
+	font-family:'exomedium';
+	font-size: 26px;
+	background-color:#fff;
 	
 }
 .article-1-wrapper
@@ -178,7 +190,25 @@
 	left: 0px;
 	width: 317px;
 	height: 100%;
-	background-color:#f00;
+	background-color:#fff;
+}
+.article-2-wrapper
+{
+	position: absolute;
+	top: 0px;
+	left: 317px;
+	width: 317px;
+	height: 100%;
+	background-color:#fff;
+}
+.article-3-wrapper
+{
+	position: absolute;
+	top: 0px;
+	left: 634px;
+	width: 317px;
+	height: 100%;
+	background-color:#fff;
 }
 
 
