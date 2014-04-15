@@ -273,7 +273,7 @@
 }
 .footer {
 	position:relative;
-	top:250px;
+	top:200px;
 	width: 100%;
 	background-color: #333;
 	height: 150px;
@@ -306,8 +306,5 @@
 	width:85px;
 	margin:0px auto;
 	height: 35px;
-	text-align: center	;
-	font-family:'exomedium';
-	font-size: 18px;
-	color: #fff;
+	text-align: center;
 }
