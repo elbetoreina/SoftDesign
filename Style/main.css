@@ -165,7 +165,7 @@
 	position:relative;
 	top:75px;
 	width: 950px;
-	height: 500px;
+	height: 375px;
 	margin:0px auto;
 	background-color: #fff;
 }
@@ -220,7 +220,7 @@
 	top: 210px;
 	left: 15px;
 	width: 287px;
-	height: 200px;	
+	height: 150px;	
 	font-family:'exomedium';
 	font-size: 22px;
 	color: #777;
@@ -245,7 +245,7 @@
 	top: 210px;
 	left: 332px;
 	width: 287px;
-	height: 200px;	
+	height: 150px;	
 	font-family:'exomedium';
 	font-size: 22px;
 	color: #777;
@@ -270,13 +270,27 @@
 	top: 210px;
 	left: 649px;
 	width: 287px;
-	height: 200px;	
+	height: 150px;	
 	font-family:'exomedium';
 	font-size: 22px;
 	color: #777;
 	text-align:justify;
 	line-height:26px;
 	background-color:#fff;
+}
+
+.footer
+{
+	position:relative;
+	top:150px;
+	width: 100%;
+	background-color: #777;
+	height: 100px;
+}
+
+.link_featured
+{
+	color:#09C;
 }
 
 
