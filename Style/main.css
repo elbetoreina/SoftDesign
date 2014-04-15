@@ -91,15 +91,18 @@
 	width: 950px;
 	height: 30px;
 	background-color:#eee;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: #333;
 }
 .facebook {
 	position:absolute;
-	left: 0px;
-	top: 5px;
+	left: 772px;
+	top: 2px;
 }
 .phone_number {
 	position:absolute;
-	left: 560px;
+	left: 375px;
 	top: 3px;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 20px;
@@ -107,17 +110,17 @@
 }
 .phone_image {
 	position:absolute;
-	left: 538px;
+	left: 353px;
 	top: 2px;
 }
 .envelope_image {
 	position:absolute;
-	left: 713px;
+	left: 528px;
 	top: 5px;
 }
 .email_address {
 	position:absolute;
-	left: 743px;
+	left: 558px;
 	top: 3px;
 }
 .a_email_address {
