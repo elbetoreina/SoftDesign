@@ -92,6 +92,11 @@
 	height: 30px;
 	background-color:#eee;
 }
+.facebook {
+	position:absolute;
+	left: 0px;
+	top: 5px;
+}
 .phone_number {
 	position:absolute;
 	left: 560px;
@@ -268,8 +273,41 @@
 }
 .footer {
 	position:relative;
-	top:200px;
+	top:250px;
 	width: 100%;
-	background-color: #777;
-	height: 100px;
+	background-color: #333;
+	height: 150px;
+}
+.menu_footer{
+	position:relative;
+	top:20px;
+	width:950px;
+	margin:0px auto;
+	height: 40px;
+	text-align: center	;
+	font-family:'exomedium';
+	font-size: 18px;
+	color: #fff;
+}
+.copy{
+	position:relative;
+	top:15px;
+	width:950px;
+	margin:0px auto;
+	height: 35px;
+	text-align: center	;
+	font-family:'exomedium';
+	font-size: 18px;
+	color: #fff;
+}
+.redes_sociales{
+	position:relative;
+	top:20px;
+	width:85px;
+	margin:0px auto;
+	height: 35px;
+	text-align: center	;
+	font-family:'exomedium';
+	font-size: 18px;
+	color: #fff;
 }
