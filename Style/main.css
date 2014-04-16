@@ -327,10 +327,18 @@
 	display:inline-block;
 	background:transparent url('../Images/FacebookGris.png') center top no-repeat;	
 }
+.redes_sociales_facebook:hover
+{
+	background:transparent url('../Images/FacebookColor.png') center top no-repeat;
+}
 .redes_sociales_twitter
 {
 	width:35px;
 	height:35px;
 	display:inline-block;
 	background:transparent url('../Images/TwitterGris.png') center top no-repeat;	
+}
+.redes_sociales_twitter:hover
+{
+	background:transparent url('../Images/TwitterColor.png') center top no-repeat;
 }
