@@ -342,3 +342,16 @@
 {
 	background:transparent url('../Images/TwitterColor.png') center top no-repeat;
 }
+.software_medida {
+	position:relative;
+	top:35px;
+	width: 950px;
+	margin: 0px auto;
+	background-color: #eee;
+	height: 450px;
+	border-radius: 10px;
+}
+.software_medida h2{
+	color:#6699CC;
+	font-size: 24px;
+}
