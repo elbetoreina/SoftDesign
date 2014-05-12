@@ -29,17 +29,21 @@
 <div class="header">
   <div class="header-inside">
     <div class="logo"> <img src="Images/SoftDesignLogo.png" alt="SoftDesign Logo" /> </div>
-    <div class="menu"> <a href="index.html" class="notselected_a">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="acerca.html" class="notselected_a">Acerca de Nosotros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="servicios.html" class="notselected_a">Nuestros Servicios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="contacto.html" class="notselected_a">Contacto</a> </div>
+    <div class="menu"> <a href="index.php" class="notselected_a">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="acerca.php" class="selected_a">Acerca de Nosotros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="servicios.php" class="notselected_a">Nuestros Servicios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="contacto.php" class="notselected_a">Contacto</a> </div>
   </div>
 </div>
-<div class="software_medida">
+<div class="quienes_somos">
   <div class="technologies-text">
-    <h2>Desarrollo de Software a la Medida</h2>
+    <h2>&iquest;Quienes somos?</h2>
     <p>
-    Contamos con desarrolladores experimentados en distintas plataformas y lenguajes de programaci&oacute;n. Esto nos permite proveerle a usted, nuestro cliente, de diversidad de soluciones, que se adaptaran tanto a su infraestructura tecnol&oacute;gica, como a su presupuesto. </p> </div>
+    Somos una empresa 100% guatemalteca dedicada a desarrollar software para organizaciones dedicadas a la comercializaci&oacute;n de bienes y/o servicios. Nuestro principal en enfoque es proveer servicios subcontrataci&oacute;n o "outsourcing" para quede esta manera,    nuestros clientes pueden potencializar su verdadero rumbo de negocio, dejando a nosotros toda la carga que conlleva el crear y mantener el desarrollo de programas inform&aacute;ticos.</p>
+    <h2>Nuestro equipo de trabajo</h2>
+    <p>Estamos conformados por un grupo de profesionales inform&aacute;ticos de las mejores universidades del pa&iacute;s, cada uno de nuestros desarrolladores posee por lo menos diez a&ntilde;os de experiencia creando y/o manteniendo programas inform&aacute;ticos orientados a diversidad de &aacute;reas comerciales, financieras y/o gubernamentales.</p>
+    <p>Esto ayuda a garantizar que nuestros servicios son eficientes y de alta calidad.</p>
+       </div>
 </div>
 <div class="footer">
-  <div class="menu_footer">  <a href="index.html">Inicio</a> | <a href="acerca.html">Acerca de Nosotros</a> | <a href="servicios.html">Nuestros Servicios</a> | <a href="contacto.html">Contacto</a> </div>
+  <div class="menu_footer">  <a href="index.php">Inicio</a> | <a href="acerca.php">Acerca de Nosotros</a> | <a href="servicios.php">Nuestros Servicios</a> | <a href="contacto.php">Contacto</a> </div>
   <div class="copy">&copy; SoftDesign de Guatemala, S.A.</div>
   <div class="redes_sociales"><a href="https://www.facebook.com/SoftDesignGuatemala" target="_blank" class="redes_sociales_facebook"></a>&nbsp;&nbsp;<a href="https://www.twitter.com/SoftDesignGuate" target="_blank"class="redes_sociales_twitter"></a></div>
 </div>

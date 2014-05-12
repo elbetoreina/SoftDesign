@@ -264,9 +264,9 @@
 	text-align:justify;
 	line-height:26px;
 }
-.technologies-text h3 {
-	font-size:22px;
-	color:#933;
+.technologies-text h2 {
+	font-size:24px;
+	color:#6699CC;
 }
 .technologies-image {
 	position:relative;
@@ -348,10 +348,62 @@
 	width: 950px;
 	margin: 0px auto;
 	background-color: #eee;
-	height: 450px;
+	height: 525px;
 	border-radius: 10px;
 }
 .software_medida h2{
+	color:#6699CC;
+	font-size: 24px;
+}
+.software_ajustado {
+	position:relative;
+	top:35px;
+	width: 950px;
+	margin: 0px auto;
+	background-color: #eee;
+	height: 625px;
+	border-radius: 10px;
+}
+.software_ajustado h2{
+	color:#6699CC;
+	font-size: 24px;
+}
+.quienes_somos {
+	position:relative;
+	top:35px;
+	width: 950px;
+	margin: 0px auto;
+	background-color: #eee;
+	height: 440px;
+	border-radius: 10px;
+}
+.quienes_somos h2{
+	color:#6699CC;
+	font-size: 24px;
+}
+.servicios_prestados {
+	position:relative;
+	top:35px;
+	width: 950px;
+	margin: 0px auto;
+	background-color: #eee;
+	height: 715px;
+	border-radius: 10px;
+}
+.servicios_prestados h2{
+	color:#6699CC;
+	font-size: 24px;
+}
+.e_commerce {
+	position:relative;
+	top:35px;
+	width: 950px;
+	margin: 0px auto;
+	background-color: #eee;
+	height: 400px;
+	border-radius: 10px;
+}
+.e_commerce h2{
 	color:#6699CC;
 	font-size: 24px;
 }

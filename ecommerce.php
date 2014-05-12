@@ -4,7 +4,6 @@
 <title>P&aacute;gina de Inicio - SoftDesign Guatemala</title>
 <link rel="stylesheet" href="Style/main.css" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
 </head>
 <body>
 <div id="fb-root"></div>
@@ -30,12 +29,20 @@
 <div class="header">
   <div class="header-inside">
     <div class="logo"> <img src="Images/SoftDesignLogo.png" alt="SoftDesign Logo" /> </div>
-    <div class="menu"> <a href="index.html" class="notselected_a">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="acerca.html" class="notselected_a">Acerca de Nosotros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="servicios.html" class="notselected_a">Nuestros Servicios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="contacto.html" class="selected_a">Contacto</a> </div>
+    <div class="menu"> <a href="index.php" class="notselected_a">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="acerca.php" class="notselected_a">Acerca de Nosotros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="servicios.php" class="notselected_a">Nuestros Servicios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="contacto.php" class="notselected_a">Contacto</a> </div>
   </div>
 </div>
-
+<div class="e_commerce">
+  <div class="technologies-text">
+    <h2>Elaboraci&oacute;n de p&aacute;ginas web</h2>
+    <p>
+    Hoy en d&iacute;a, es indispensable que todas las organizaciones grandes o peque&ntilde;as, puedan mostrar sus servicios a trav&eacute;s del internet. La mejor forma para esto es que las empresas cuenten con su propio sitio web, de este modo los consumidores de los bienes o servicios que se prestan, podr&aacute;n identificarse de una mejor manera con la organizaci&oacute;n.  </p>
+    <h2>E-Commerce</h2>
+    <p>El carrito de compras virtual es ahora mas vigente que nunca, y si usted quiere darle un empuje a sus ventas, que mejor que sus consumidores puedan comprar sus productos en l&iacute;nea, sin necesidad de movilizarse de sus casas u oficinas. Si usted cuenta con un servicio de reparto a domicilio o desea iniciarlo, SoftDesign le ofrece el servicio de crear su sitio E-Commerce</p>
+       </div>
+</div>
 <div class="footer">
-  <div class="menu_footer">  <a href="index.html">Inicio</a> | <a href="#">Acerca de Nosotros</a> | <a href="#">Nuestros Servicios</a> | <a href="#">Contacto</a> </div>
+  <div class="menu_footer">  <a href="index.php">Inicio</a> | <a href="acerca.php">Acerca de Nosotros</a> | <a href="servicios.php">Nuestros Servicios</a> | <a href="contacto.php">Contacto</a> </div>
   <div class="copy">&copy; SoftDesign de Guatemala, S.A.</div>
   <div class="redes_sociales"><a href="https://www.facebook.com/SoftDesignGuatemala" target="_blank" class="redes_sociales_facebook"></a>&nbsp;&nbsp;<a href="https://www.twitter.com/SoftDesignGuate" target="_blank"class="redes_sociales_twitter"></a></div>
 </div>
